@@ -24,4 +24,4 @@ let varD = (value) =>{
 }
 
 console.log(varD);
-console.log(varD(10));
+console.log(varD(10)); 
