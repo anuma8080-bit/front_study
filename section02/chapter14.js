@@ -1,13 +1,8 @@
 async function getData(){
-    return new Promise((resolve, reject)=>{
-        setTimeout(()=>{
-            resolve({
+    return {
                 name:'전지훈',
                 age:17
-            });
-
-        },1500)
-    })
+            }
 }
 
 async function printDate(){
