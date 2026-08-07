@@ -1,1 +1,3 @@
-console.log('node.js 해위')
+const {add, sub}= require("./math.js")
+
+console.log(add(1,2))
